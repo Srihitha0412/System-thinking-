@@ -1,0 +1,90 @@
+/* Reset & Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f7fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #0077b6;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 1.5rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section Container */
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+h1 {
+  color: #023e8a;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+h3 {
+  color: #0055aa;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+/* Image Styling */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+}
+
+/* Download Link Styling */
+a[download],
+.button {
+  display: inline-block;
+  background-color: #00b4d8;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+a[download]:hover,
+.button:hover {
+  background-color: #0096c7;
+}
